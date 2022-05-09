@@ -12,7 +12,7 @@ public:
         strcpy(orderNo, Onumber);
         strcpy(orderDate, Odate);
     }
-    void dispalyOrderDetais();{
+    void dispalyOrderDetais(){
         cout << "Order No : " << orderNo << endl;
         cout << "Order Date : " << orderDate << endl;
     }
